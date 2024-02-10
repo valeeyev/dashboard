@@ -1,4 +1,3 @@
-// Your JavaScript code here
 const dynamicContent = document.getElementById("dynamicContent");
 
 // Set default content for the "home" section
