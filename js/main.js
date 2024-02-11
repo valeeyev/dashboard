@@ -79,3 +79,14 @@ addButton.addEventListener("click", function () {
 
   dynamicContent.innerHTML = add;
 });
+
+// sidebar navigation
+const sidebarItems = document.querySelectorAll(".sidebar ul li");
+
+sidebarItems.forEach((item) => {
+  item.addEventListener("click", function () {
+    sidebarItems.forEach((item) => item.classList.remove("active"));
+
+    this.classList.add("active");
+  });
+});

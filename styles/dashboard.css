@@ -116,9 +116,14 @@ li {
 }
 
 li:hover {
-  color: var(--second_color);
-  background-color: var(--main_color);
-  /* box-shadow: 0px 0px 10px 0px var(--main_color); */
+  /* color: var(--second_color); */
+  /* background-color: var(--main_color); */
+  box-shadow: 0px 0px 10px 0px var(--main_color);
+}
+
+.sidebar ul li.active {
+  background-color: var(--main_color); /* Change to your desired color */
+  color: var(--second_color); /* Change to your desired text color */
 }
 
 footer {
